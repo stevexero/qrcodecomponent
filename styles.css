@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,22 +10,84 @@
   --background-primary: #d5e1ef;
 
   --card-background: #ffffff;
-  --card-heading-primary: #2c7dfa;
-  --card-heading-secondary: #3685ff;
 
-  --text-heading: #1f314f;
-  --text-body: #7d889e;
+  --font-family: 'Outfit';
+
+  --text-color-heading: #1f314f;
+  --text-color-body: #7d889e;
 
   --font-size-heading: 22px;
   --font-size-body: 15px;
 
-  --font-weight-heading: bold;
-  --font-weight-body: normal;
+  --font-weight-heading: 600;
+  --font-weight-body: 300;
 
-  --font-tracking-heading: 0;
+  --font-tracking-heading: 0.19px;
   --font-tracking-body: 0.19px;
+
+  --rounded-outer: 20px;
+  --rounded-inner: 10px;
 }
 
 body {
   background-color: var(--background-primary);
+  font-family: var(--font-family), sans-serif;
+}
+
+body main {
+  padding: 16px;
+  background-color: var(--card-background);
+  border-radius: var(--rounded-outer);
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body main section {
+  width: 288px;
+}
+
+body main section img {
+  width: 100%;
+  border-radius: var(--rounded-inner);
+}
+
+body main section h1 {
+  margin: 16px;
+  margin-top: 20px;
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+  letter-spacing: var(--font-tracking-heading);
+  color: var(--text-color-heading);
+  text-align: center;
+}
+
+body main section p {
+  margin: 16px;
+  margin-bottom: 24px;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--font-tracking-body);
+  color: var(--text-color-body);
+  text-align: center;
+}
+
+body footer {
+  width: 100vw;
+  position: absolute;
+  bottom: 16px;
+}
+
+body footer p {
+  text-align: center;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  letter-spacing: var(--font-tracking-body);
+  color: var(--text-color-body);
+}
+
+body footer p a {
+  color: var(--text-color-heading);
 }
