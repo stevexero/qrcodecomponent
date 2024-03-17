@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-primary: #d5e1ef;
+
+  --card-background: #ffffff;
+  --card-heading-primary: #2c7dfa;
+  --card-heading-secondary: #3685ff;
+
+  --text-heading: #1f314f;
+  --text-body: #7d889e;
+
+  --font-size-heading: 22px;
+  --font-size-body: 15px;
+
+  --font-weight-heading: bold;
+  --font-weight-body: normal;
+
+  --font-tracking-heading: 0;
+  --font-tracking-body: 0.19px;
+}
+
+body {
+  background-color: var(--background-primary);
+}
