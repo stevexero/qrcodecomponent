@@ -21,11 +21,11 @@ I've been a Frontend Mentor member for a few years but haven't truly discovered 
 
 ### Screenshot
 
-![QR Code Generator](./images/qrss.png)
+![QR Code Component](./images/qrss.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [QR Code Component](https://www.frontendmentor.io/solutions/qr-code-component-with-semantic-html-no-classes-and-css-no-flexgrid-y9CHYb8Y3n)
 - Live Site URL: [Live site](https://qrcodecomponentfem.netlify.app/)
 
 ## My process
