@@ -17,6 +17,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+I've been a Frontend Mentor for a few years but haven't truly discovered the whole platform. This project is the first project from the learning path module. Since it's aimed at beginners very early in their learning journey, I decided to try and challenge myself anyway. My objective was to not use any class names in my html as well as keeping the layout semantic to the best of my ever-evolving abilites. I also refrained from using grid or flexbox.
+
 ### Screenshot
 
 ![](./screenshot.jpg)
