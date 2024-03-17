@@ -17,38 +17,32 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-I've been a Frontend Mentor for a few years but haven't truly discovered the whole platform. This project is the first project from the learning path module. Since it's aimed at beginners very early in their learning journey, I decided to try and challenge myself anyway. My objective was to not use any class names in my html as well as keeping the layout semantic to the best of my ever-evolving abilites. I also refrained from using grid or flexbox.
+I've been a Frontend Mentor member for a few years but haven't truly discovered the whole platform. This project is the first project from the learning path module. Since it's aimed at beginners very early in their learning journey, I decided to try and challenge myself anyway. My objective was to not use any class names in my html as well as keeping the layout semantic to the best of my ever-evolving abilites. I also refrained from using grid or flexbox.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![QR Code Generator](./images/qrss.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://qrcodecomponentfem.netlify.app/)
 
 ## My process
 
 - Initialized git, github, and project files
 - Reviewed design files and set CSS root variables
+- Implemented semantic html tags
+- Styled by tag
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 
-### What I learned
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'll be continuing the learning path laid out by Frontend Mentor
 
 ### Useful resources
 
@@ -61,7 +55,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - GitHub - [Steve Xero](https://www.github.com/stevexero)
 - Frontend Mentor - [@stevexero](https://www.frontendmentor.io/profile/stevexero)
 - X - [@steve_xero](https://www.twitter.com/steve_xero)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
